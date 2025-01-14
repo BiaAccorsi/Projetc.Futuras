@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Monsieur La Doulaise', sans-serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+header {
+    background-color: darkgoldenrod;
+}
