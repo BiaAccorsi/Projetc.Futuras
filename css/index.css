@@ -1,13 +1,130 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Monsieur La Doulaise', sans-serif;
+    font-family: 'Tangerine', sans-serif;
+}
+
+p {
+    font-size: 30px;
+
 }
 
 body {
     background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header {
-    background-color: darkgoldenrod;
+    background-image: url(/imagens/background\ alucard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.Logo img {
+   
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 500px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.nav {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+header li {
+    
+    font-size: 20px;
+}
+
+.intro {
+    background-image: url(/imagens/background\ alucard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+#Hist {
+    background-color: bisque;
+    margin-top: 20px;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+footer {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5%;
+    
+}
+
+footer h4 {
+    font-size: 30px;
+}
+footer form {
+    padding: 20px;
+}
+
+footer label {
+    font-size: 30px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px #ccc;
+    margin-right: 15px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #ccc;
+    margin-left: 15px;
+}
+
