@@ -4,13 +4,17 @@
     font-family: 'Tangerine', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     font-size: 30px;
 
 }
 
 body {
-    background-color: darkgray;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,7 +35,7 @@ header {
     
 }
 
-.Logo img {
+.logo img {
    
    display: flex;
    justify-content: space-around;
@@ -47,7 +51,7 @@ a {
 }
 
 .nav {
-    background-color: brown;
+    background-color: peru;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +74,18 @@ header li {
     font-size: 20px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+
+
+
 .intro {
     background-image: url(/imagens/sotn_capa.jpg);
     background-size: cover;
@@ -79,22 +95,120 @@ header li {
     width: 100%;
 }
 
-#Hist {
-    background-color: bisque;
+#hist {
+    
     margin-top: 20px;
-    width: 1400px;
+    width: 1110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.História {
+    
+    width: 800px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    gap: 50px;
 }
 
 
 
+#persona {
+    
+}
 
+#persona img {
+    box-shadow: 10px 10px 10px #00000050;
+    border-radius: 20px;
+}
+
+.persona-cards {
+    
+    width: 1110px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.flip-card {
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    perspective: 1000;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-inner h3 {
+    font-weight: bold;
+
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, 
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+
+#gameplay {
+    
+    margin-bottom: 20px;
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.Gameplay {
+    
+    width: 800px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.titulo {
+    padding: 30px;
+}
 
 footer {
-    background-color: greenyellow;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
