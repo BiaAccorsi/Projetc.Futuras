@@ -18,9 +18,9 @@ body {
 }
 
 header {
-    background-image: url(/imagens/background\ alucard.jpg);
+    background-image: url(/imagens/sotn_capa.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
@@ -51,7 +51,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border-radius: 15px;
 }
@@ -71,11 +71,11 @@ header li {
 }
 
 .intro {
-    background-image: url(/imagens/background\ alucard.jpg);
+    background-image: url(/imagens/sotn_capa.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 515px;
     width: 100%;
 }
 
