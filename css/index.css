@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Tangerine', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
 }
 
 html {
@@ -9,12 +9,12 @@ html {
 }
 
 p {
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 body {
-    
+    background-image: url(/imagens/Window_castle.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -96,7 +96,7 @@ main {
 }
 
 #hist {
-    
+    background-color: #b4b4b479;
     margin-top: 20px;
     width: 1110px;
     display: flex;
@@ -112,19 +112,19 @@ main {
 }
 
 .História {
-    
+    background-color: rgb(189, 145, 101);
     width: 800px;
     padding: 20px;
     text-align: justify;
     line-height: 1.6;
     gap: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 
-
-#persona {
-    
-}
 
 #persona img {
     box-shadow: 10px 10px 10px #00000050;
@@ -132,7 +132,7 @@ main {
 }
 
 .persona-cards {
-    
+    background-color: #b4b4b479;
     width: 1110px;
     height: 750px;
     display: flex;
@@ -179,9 +179,18 @@ main {
     transform: rotateY(180deg);
 }
 
+.Gameplay {
+    background-color: rgb(189, 145, 101);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
 #gameplay {
-    
+    background-color: #b4b4b479;
     margin-bottom: 20px;
     width: 1110px;
     display: flex;
@@ -204,11 +213,17 @@ main {
 }
 
 .titulo {
-    padding: 30px;
+    padding: 30px; 
+    background-color: #b4b4b479;
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
-    
+    background-color: #ddc6b2;
     display: flex;
     flex-direction: column;
     justify-content: center;
