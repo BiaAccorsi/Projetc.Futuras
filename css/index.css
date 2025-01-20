@@ -19,11 +19,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.548);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -256,14 +256,20 @@ footer label {
 input {
     padding: 10px;
     border-radius: 15px;
-    border: 1px #ccc;
+    border: 1px solid #ccc;
     margin-right: 15px;
 }
 
 button {
     padding: 10px;
     border-radius: 10px;
-    border: 1px #ccc;
+    border: 1px solid #ccc;
     margin-left: 15px;
 }
 
+@media (max-width:1190px){
+    footer form {
+        display: flex;
+        flex-direction: column;
+    }
+}
