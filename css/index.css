@@ -1,8 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'Eagle Lake', sans-serif;
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -14,7 +15,7 @@ p {
 }
 
 body {
-    background-image: url(/imagens/Window_castle.jpg);
+    background-image: url(/imagens/castlevania__sotn___entrance__with_dust_scratches_.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,11 +23,11 @@ body {
 }
 
 header {
-    background-image: url(/imagens/sotn_capa.jpg);
+    background-color: rgba(0, 0, 0, 0.356);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -58,6 +59,7 @@ a {
     width: 50%;
     padding: 10px;
     border-radius: 15px;
+    margin-bottom: 30px;
 }
 
 header ul {
@@ -91,14 +93,14 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 515px;
+    height: 500px;
     width: 100%;
 }
 
 #hist {
     background-color: #b4b4b479;
     margin-top: 20px;
-    width: 1110px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +115,7 @@ main {
 
 .História {
     background-color: rgb(189, 145, 101);
-    width: 800px;
+    width: 80%;
     padding: 20px;
     text-align: justify;
     line-height: 1.6;
@@ -124,7 +126,15 @@ main {
     border-bottom-right-radius: 20px;
 }
 
+#persona {
+    background-color: #b4b4b479;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
+}
 
 #persona img {
     box-shadow: 10px 10px 10px #00000050;
@@ -132,9 +142,9 @@ main {
 }
 
 .persona-cards {
-    background-color: #b4b4b479;
-    width: 1110px;
-    height: 750px;
+    /* background-color: #b4b4b479; */
+    width: 80%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -192,7 +202,7 @@ main {
 #gameplay {
     background-color: #b4b4b479;
     margin-bottom: 20px;
-    width: 1110px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,7 +216,7 @@ main {
 
 .Gameplay {
     
-    width: 800px;
+    width: 80%;
     padding: 20px;
     text-align: justify;
     line-height: 1.6;
@@ -214,8 +224,8 @@ main {
 
 .titulo {
     padding: 30px; 
-    background-color: #b4b4b479;
-    width: 1050px;
+    /* background-color: #b4b4b479; */
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
