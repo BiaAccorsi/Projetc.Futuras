@@ -273,3 +273,9 @@ button {
         flex-direction: column;
     }
 }
+@media (max-width:840px) {
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
