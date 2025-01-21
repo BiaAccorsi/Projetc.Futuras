@@ -233,13 +233,12 @@ main {
 }
 
 footer {
-    background-color: #ddc6b2;
+    background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2.5%;
-    
 }
 
 footer h4 {
