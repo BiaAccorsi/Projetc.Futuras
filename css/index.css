@@ -14,6 +14,11 @@ p {
 
 }
 
+h2 {
+    color: rgb(44, 35, 25);
+    
+}
+
 body {
     background-image: url(/imagens/castlevania__sotn___entrance__with_dust_scratches_.jpg);
     display: flex;
@@ -49,6 +54,19 @@ a {
     text-decoration: none;
     color: inherit;
     
+}
+
+.menu-hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .nav {
@@ -230,6 +248,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 footer {
@@ -272,9 +291,36 @@ button {
         flex-direction: column;
     }
 }
-@media (max-width:840px) {
-    .nav ul {
-        display: flex;
-        flex-direction: column;
+@media (max-width: 840px) {
+    .menu-hamburguer {
+        display: block;
     }
+
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: cadetblue;
+        padding: 20px;
+        margin-top: 15px;
+    }
+    
+    #nav-menu.active {
+        display: flex;
+    }
+
+    #hist
+    #persona
+    #gameplay {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
 }
