@@ -1,10 +1,22 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const menuHamburger = document.getElementById('menu-hamburger');
-    const navMenu = document.getElementById('nav-menu');
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburgerMenu = document.querySelector (".hamburger-menu");
+    const nav = document.querySelector(".nav");
+    const navLinks = document.querySelectorAll(".nav a");
 
-    menuHamburger.addEventListener ('click', () => {
-        console.log('cliquei')
-        navMenu.classList.toggle ('active');
-        menuHamburger.classList.toggle ('active');
+    hamburgerMenu.addEventListener ("click", () => {
+        nav.classList.toggle ("active");
+
+        if (nav.classList.contains("active")) {
+            hamburgerMenu.classList.add("menu-active");
+        } else {
+            hamburgerMenu.classList.remove("menu-active");
+        }
     });
+
+    navLinks.forEach(link => {
+        link.addEventListener("click", () => {
+            nav.classList.remove("active");
+            hamburgerMenu.classList.remove("menu-active");
+        });
+    })
 });
